@@ -937,8 +937,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 PRODUCT_PACKAGES += \
+    manifest_oplusSensor \
+    manifest_oplus_fingerprint \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
-    com.android.hotwordenrollment.common.util \
-    manifest_oplusSensor \
-    manifest_oplus_fingerprint
+    com.android.hotwordenrollment.common.util
+
